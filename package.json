@@ -1,0 +1,54 @@
+{
+  "name": "claude-ps5-mcp",
+  "version": "1.0.4",
+  "description": "MCP server for PS5 control - discover, register, and wake PlayStation 5 consoles",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "claude-ps5-mcp": "./bin/claude-ps5-mcp.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ps5",
+    "playstation",
+    "playstation-5",
+    "remote-play",
+    "wake-on-lan",
+    "claude",
+    "claude-code"
+  ],
+  "author": "preethamdev",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "bin/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/preethamdev/claude-ps5-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/preethamdev/claude-ps5-mcp/issues"
+  },
+  "homepage": "https://github.com/preethamdev/claude-ps5-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.6.0",
+    "open": "^10.0.0",
+    "playactor": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
