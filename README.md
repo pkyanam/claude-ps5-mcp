@@ -1,6 +1,6 @@
 # claude-ps5-mcp
 
-[![npm version](https://badge.f.herokuapp.com/npm/claude-ps5-mcp.svg)](https://www.npmjs.com/package/claude-ps5-mcp)
+[npm version](https://www.npmjs.com/package/claude-ps5-mcp)
 
 A Model Context Protocol (MCP) server that enables Claude Code to discover, register, and wake PS5 consoles on your local network.
 
